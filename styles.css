@@ -56,7 +56,6 @@ table {
 
 body {
   background-color: darkred;
-
 }
 
 h1 {
@@ -91,8 +90,11 @@ h1 {
 }
 
 button:focus {
-  outline-color: darkred;
+  outline: none;
+  transform: perspective(1px) scale(1.05);
+  transition-duration: 0.3s;
 }
+
 .container {
   text-align: center;
 }
