@@ -90,8 +90,7 @@ h1 {
   cursor: default;
 }
 
-button:focus,
-button:outline {
+button:focus {
   outline-color: darkred;
 }
 .container {
