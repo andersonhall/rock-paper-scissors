@@ -133,5 +133,3 @@ s.addEventListener('click', function() {
   computerSelection = computerPlay();
   playRound('scissors', computerSelection);
 });
-
-

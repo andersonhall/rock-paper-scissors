@@ -78,7 +78,6 @@ h1 {
   transition-duration: 0.3s;
 }
 
-
 .btn:hover {
   cursor: pointer;
   transform: perspective(1px) scale(1.05);
@@ -91,6 +90,9 @@ h1 {
   cursor: default;
 }
 
+button:focus {
+  outline-color: darkred;
+}
 .container {
   text-align: center;
 }
